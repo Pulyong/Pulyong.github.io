@@ -1,11 +1,11 @@
 - name: Pytorch
-  percentage: 90
+  percentage: 70
   color: danger
 
 - name: Pytorch Lightning
-  percentage: 80
+  percentage: 60
   color:
 
 - name: JAX
-  percentage: 10
+  percentage: 20
   color: secondary

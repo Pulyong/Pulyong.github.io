@@ -1,7 +1,11 @@
-- name: Adobe Photoshop
-  percentage: 95
+- name: Basketball
+  percentage: 90
   color: info
 
-- name: Adobe Illustrator
-  percentage: 90
+- name: Weight Training
+  percentage: 70
   color: success
+
+- name: Fencing(Sabre)
+  percentage: 20
+  color: warning
