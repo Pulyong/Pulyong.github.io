@@ -1,83 +1,83 @@
 [
   
     {
-      "title"    : "Digital Minimalism",
+      "title"    : "Generative Modeling by Estimating Gradients of the Data Distribution(Score-based Model) NCSN Paper Review",
       "category" : "",
-      "tags"     : "Social Media, Minimalism, Technology",
-      "url"      : "/blog/digital-minimalism",
-      "date"     : "2019-02-20 00:00:00 +0900"
+      "tags"     : "Image Generative Model, Score Based Model, NCSN",
+      "url"      : "https://rla020.tistory.com/44",
+      "date"     : "2024-03-14 00:00:00 +0900"
     } ,
   
     {
-      "title"    : "Learn React.js in 5 minutes",
+      "title"    : "Auto-Encoding Variational Bayes(VAE) Paper Review",
       "category" : "",
-      "tags"     : "React, JavaScript, Web Development",
-      "url"      : "/blog/learn-react-js",
-      "date"     : "2019-02-15 00:00:00 +0900"
+      "tags"     : "Image Generative Model, Likelihood Based Model, Variational AutoEncoder",
+      "url"      : "https://rla020.tistory.com/43",
+      "date"     : "2024-03-13 00:00:00 +0900"
     } ,
   
     {
-      "title"    : "Clean Coding",
+      "title"    : "Normal Equation to AdamW Optimizer",
       "category" : "",
-      "tags"     : "Software Development, Clean Code",
-      "url"      : "/blog/clean-coding",
-      "date"     : "2018-12-10 00:00:00 +0900"
+      "tags"     : "Optimizer, Gradient Descent, SGD, Momentum, RMSProp, Adam, AdamW",
+      "url"      : "https://rla020.tistory.com/41",
+      "date"     : "2023-12-11 00:00:00 +0900"
     } ,
   
     {
-      "title"    : "What the heck is a Callback?",
+      "title"    : "Restricted Boltzmann Machine(RBM) &amp; Deep Belief Network(DBN)",
       "category" : "",
-      "tags"     : "JavaScript, Nodejs, Web Development",
-      "url"      : "/blog/what-the-heck-is-a-callback",
-      "date"     : "2018-12-01 00:00:00 +0900"
+      "tags"     : "Generative Model, RBM, DBN",
+      "url"      : "https://rla020.tistory.com/40",
+      "date"     : "2023-10-08 00:00:00 +0900"
     } ,
   
     {
-      "title"    : "4 Lessons After 11 Years in Silicon Valley",
+      "title"    : "What is Maximum Likelihood Estimation?",
       "category" : "",
-      "tags"     : "",
-      "url"      : "/blog/four-lessons-after-eleven-years-in-silicon-valley",
-      "date"     : "2018-05-09 00:00:00 +0900"
+      "tags"     : "MLE",
+      "url"      : "https://rla020.tistory.com/36",
+      "date"     : "2023-09-19 00:00:00 +0900"
     } ,
   
     {
-      "title"    : "GitHub Flow",
+      "title"    : "What is GPT &amp; ChatGPT?",
       "category" : "",
-      "tags"     : "GitHub, Workflow",
-      "url"      : "/blog/github-flow",
-      "date"     : "2017-01-01 00:00:00 +0900"
+      "tags"     : "Generative Pretrained Transformer, GPT",
+      "url"      : "https://rla020.tistory.com/35",
+      "date"     : "2023-02-08 00:00:00 +0900"
     } ,
   
     {
-      "title"    : "A better Hello World",
+      "title"    : "How to make Random Number Generator(RNG) following a specific distribution?",
       "category" : "",
-      "tags"     : "Software Development",
-      "url"      : "/blog/a-better-hello-world",
-      "date"     : "2016-07-23 00:00:00 +0900"
+      "tags"     : "RNG, CDF",
+      "url"      : "https://rla020.tistory.com/34",
+      "date"     : "2023-02-02 00:00:00 +0900"
     } ,
   
     {
-      "title"    : "Do not go gentle into that good night",
+      "title"    : "Generative Adversarial Networks Implementation",
       "category" : "",
-      "tags"     : "Poetry",
-      "url"      : "/blog/do-not-go-gentle-into-that-good-night",
-      "date"     : "2016-04-17 00:00:00 +0900"
+      "tags"     : "Generative Adversarial Networks, GAN, Pytorch Lightning",
+      "url"      : "https://rla020.tistory.com/33",
+      "date"     : "2023-01-20 00:00:00 +0900"
     } ,
   
     {
-      "title"    : "What is version control?",
+      "title"    : "Generative Adversarial Networks Paper Review2",
       "category" : "",
-      "tags"     : "Version Control",
-      "url"      : "/blog/what-is-version-control",
-      "date"     : "2016-02-09 00:00:00 +0900"
+      "tags"     : "Generative Adversarial Networks, GAN",
+      "url"      : "https://rla020.tistory.com/32",
+      "date"     : "2023-01-19 00:00:00 +0900"
     } ,
   
     {
-      "title"    : "How to undo your git failure?",
+      "title"    : "Generative Adversarial Networks Paper Review1",
       "category" : "",
-      "tags"     : "External Post, Git",
-      "url"      : "https://blog.usejournal.com/how-to-undo-your-git-failure-b76e31ecac74",
-      "date"     : "2015-09-25 00:00:00 +0900"
+      "tags"     : "Generative Adversarial Networks, GAN",
+      "url"      : "https://rla020.tistory.com/31",
+      "date"     : "2023-01-18 00:00:00 +0900"
     } 
   
 ]

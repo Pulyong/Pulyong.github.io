@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Image Processing using Mean,Median,HighBoost Filter">
+  <meta property="og:description" content="Noise remove & Image enhancement using Filter">
+  <meta property="og:image" content="https://file.notion.so/f/f/6de2b483-85e3-4acb-bb38-1796331da9f5/49502f66-b877-4842-9983-774b80923b13/Untitled.png?id=46657a67-115b-4d63-b847-04260182e8a0&table=block&spaceId=6de2b483-85e3-4acb-bb38-1796331da9f5&expirationTimestamp=1712484000000&signature=VDhEB0zuF2BYC--d1QGrBwGQ6mK8mkmr8rF40_OJphE&downloadName=Untitled.png">
+
+  <title>Image Processing using Mean,Median,HighBoost Filter</title>
+  <meta name="description" content="Noise remove & Image enhancement using Filter">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Yongjin's Portfolio</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/about/">About</a>
+
+      <a class="nav-item nav-link " href="/profile/">Profile</a>
+
+      <a class="nav-item nav-link " href="/experience/">Experience</a>
+
+      <a class="nav-item nav-link active" href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link " href="/blog/">Blog</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <p><img src="https://file.notion.so/f/f/6de2b483-85e3-4acb-bb38-1796331da9f5/49502f66-b877-4842-9983-774b80923b13/Untitled.png?id=46657a67-115b-4d63-b847-04260182e8a0&amp;table=block&amp;spaceId=6de2b483-85e3-4acb-bb38-1796331da9f5&amp;expirationTimestamp=1712484000000&amp;signature=VDhEB0zuF2BYC--d1QGrBwGQ6mK8mkmr8rF40_OJphE&amp;downloadName=Untitled.png" alt="Untitled" /></p>
+
+<p><img src="https://file.notion.so/f/f/6de2b483-85e3-4acb-bb38-1796331da9f5/c4e5e3cf-ea49-4293-920a-a62c4226c82d/Untitled.png?id=659e98fa-662f-4575-a449-372e61cbc5dc&amp;table=block&amp;spaceId=6de2b483-85e3-4acb-bb38-1796331da9f5&amp;expirationTimestamp=1712484000000&amp;signature=ccM9AbsSUr7EyMXu6Mfnu9SL02Pit2eMVKfBmWF1rEA&amp;downloadName=Untitled.png" alt="Untitled" /></p>
+
+<p><a href="https://github.com/Pulyong/Early_Vision_Project/tree/main/Filter">Github</a></p>
+
+<p><strong>Summary</strong></p>
+
+<ul>
+  <li>Mean, Median, Gaussian Filter를 이용한 Impulse, Gaussian, Salt &amp; Pepper Noise 제거</li>
+  <li>High-Boost Filter를 이용한 Sharpening</li>
+  <li>자세한 내용은 Github 참고</li>
+</ul>
+
+<p><strong>Role</strong></p>
+
+<ul>
+  <li>혼자 프로젝트 진행</li>
+  <li>수식으로 표현된 Filter 구현</li>
+</ul>
+
+<p><strong>Result</strong></p>
+
+<ul>
+  <li>자연에 존재하는 여러가지 Noise에 대한 이해</li>
+  <li>Noise 별로 알맞는 Filter와 그 이유에 대한 이해</li>
+</ul>
+
+<p><strong>Period</strong></p>
+
+<ul>
+  <li>2023.05 ~ 2023.06</li>
+</ul>
+
+</div>
+  </main>
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Yongjin Kim</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="https://rla020.tistory.com/"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#66ccff'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-code fa-1x"></i>
+    </a><a class="social mx-1"  href="mailto:rla020@naver.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/Pulyong"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.instagram.com/yong_jinn_"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#405de6'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-instagram fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.kaggle.com/YongJinKR"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#20beff'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-kaggle fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/용진-김-937875259"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+
+</footer>
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+
+</html>
