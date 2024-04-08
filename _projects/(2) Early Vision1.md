@@ -5,9 +5,10 @@ image: https://file.notion.so/f/f/6de2b483-85e3-4acb-bb38-1796331da9f5/818b6c95-
 description: Hand, Car Video Detection without DeepLearning Method.
 ---
 
-![output (online-video-cutter.com).gif](https://file.notion.so/f/f/6de2b483-85e3-4acb-bb38-1796331da9f5/818b6c95-7062-4054-88e7-3172c47abce9/output_(online-video-cutter.com).gif?id=5b2ea799-b733-45f3-9cfa-e2ef8c0d70aa&table=block&spaceId=6de2b483-85e3-4acb-bb38-1796331da9f5&expirationTimestamp=1712476800000&signature=9Yru9iDQj9MrxlOvkqTHasuTZyAHzzshYZeZ60d9Oeg&downloadName=output+%28online-video-cutter.com%29.gif)
+![output](https://private-user-images.githubusercontent.com/76218918/289928386-797bbae9-f3fb-4bc3-94f3-e230217026a1.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI1NjM4MTIsIm5iZiI6MTcxMjU2MzUxMiwicGF0aCI6Ii83NjIxODkxOC8yODk5MjgzODYtNzk3YmJhZTktZjNmYi00YmMzLTk0ZjMtZTIzMDIxNzAyNmExLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA4VDA4MDUxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ0OTc1MmE4NGFkOTI0MTE4MGQ0ZWQwYTA2YjM4MmQ2MmZlYTA1MDIwYWFhMDA2NWEzMTk3YmE5MGQ1N2FiZTYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.RmFhkIICeXlcfCkOMEUHDDwkI4NLwo2mM-xlgTxnWsk)
 
-![output_car2 (online-video-cutter.com).gif](https://file.notion.so/f/f/6de2b483-85e3-4acb-bb38-1796331da9f5/af4dc972-214b-4fac-86de-b7a470dfbda5/output_car2_(online-video-cutter.com).gif?id=810d4f95-b714-4c0c-9c43-bdc874017048&table=block&spaceId=6de2b483-85e3-4acb-bb38-1796331da9f5&expirationTimestamp=1712476800000&signature=3oAYbAYaDZt4Etvh6mz_d7xnIAUlUIelsd68gobKxzc&downloadName=output_car2+%28online-video-cutter.com%29.gif)
+![output_car2](https://github.com/Pulyong/Early_Vision_Project/assets/76218918/d31d12de-cc99-46d7-b18a-5a2f0d27e2a6)
+
 
 [Github](https://github.com/Pulyong/Early_Vision_Project/tree/main/Video_Detection)
 

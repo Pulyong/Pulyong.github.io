@@ -5,11 +5,16 @@ image: https://file.notion.so/f/f/6de2b483-85e3-4acb-bb38-1796331da9f5/71a04c89-
 description: Code Implementation of RBM, VAE, GAN with Pytorch Lightning Framework.
 ---
 
-![Untitled](https://file.notion.so/f/f/6de2b483-85e3-4acb-bb38-1796331da9f5/e9c51019-d93c-45dc-9f2f-2c048f73f141/Untitled.png?id=dcb82f84-95f2-4878-8fb2-745a63c01185&table=block&spaceId=6de2b483-85e3-4acb-bb38-1796331da9f5&expirationTimestamp=1712476800000&signature=sG0rfl8naDVPys8nyuS6IcyiI8DZ68ES6Cs_Oqli-NY&downloadName=Untitled.png)
+### RBM
+![Untitled](https://github.com/Pulyong/Paper_Review/assets/76218918/486dee5e-745a-4d79-8997-45c1b2166722)
 
-![Untitled](https://file.notion.so/f/f/6de2b483-85e3-4acb-bb38-1796331da9f5/23ad415d-45a3-485e-b4b4-afcb4d68afc7/Untitled.png?id=e8f5cf97-6f73-429e-bff8-c3b6b0fcc3c3&table=block&spaceId=6de2b483-85e3-4acb-bb38-1796331da9f5&expirationTimestamp=1712476800000&signature=l2nk5xpwhACGXroT7oTYUJoa1ccKAC9N3L1K9CNntmk&downloadName=Untitled.png)
+### VAE
+![Untitled](https://github.com/Pulyong/Paper_Review/assets/76218918/64ebd051-ebdd-4f7d-ad9d-8bab58b1db77)
 
-![Untitled](https://file.notion.so/f/f/6de2b483-85e3-4acb-bb38-1796331da9f5/71a04c89-8d84-409d-be6d-30ea81252a95/Untitled.png?id=2c51995e-8cbf-4d1f-8b9d-1907b415660b&table=block&spaceId=6de2b483-85e3-4acb-bb38-1796331da9f5&expirationTimestamp=1712476800000&signature=Jg3PMuwkvKdOBXSP5ucVbJmEg4_SMdXl-j1zGPrJB1I&downloadName=Untitled.png)
+![Untitled](https://github.com/Pulyong/Paper_Review/assets/76218918/6065fb66-8466-492d-b817-706a652c9a85)
+
+### GAN
+![Untitled](https://github.com/Pulyong/Paper_Review/assets/76218918/e4dab528-f749-43de-b474-e1140cabcd86)
 
 **Github**
 
