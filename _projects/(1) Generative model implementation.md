@@ -1,7 +1,7 @@
 ---
 name: Implementation RBM, VAE, GAN with Pytorch Lightning
 tools: [python, pytorch, pytorch lightning]
-image: https://file.notion.so/f/f/6de2b483-85e3-4acb-bb38-1796331da9f5/71a04c89-8d84-409d-be6d-30ea81252a95/Untitled.png?id=2c51995e-8cbf-4d1f-8b9d-1907b415660b&table=block&spaceId=6de2b483-85e3-4acb-bb38-1796331da9f5&expirationTimestamp=1712476800000&signature=Jg3PMuwkvKdOBXSP5ucVbJmEg4_SMdXl-j1zGPrJB1I&downloadName=Untitled.png
+image: https://github.com/Pulyong/Paper_Review/assets/76218918/486dee5e-745a-4d79-8997-45c1b2166722
 description: Code Implementation of RBM, VAE, GAN with Pytorch Lightning Framework.
 ---
 

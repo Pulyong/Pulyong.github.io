@@ -1,7 +1,7 @@
 ---
 name: Bsinsa Project
 tools: [Ignore me]
-image: https://file.notion.so/f/f/6de2b483-85e3-4acb-bb38-1796331da9f5/fa1eb55b-5205-4c71-8322-6b2a5ee5b919/Untitled.png?id=14b78133-1f39-481a-b4bd-56f103949fd9&table=block&spaceId=6de2b483-85e3-4acb-bb38-1796331da9f5&expirationTimestamp=1712484000000&signature=CcjjHpdRTFq8S_WNVxGPT_iammLe-8F0ttQeNjG_PsY&downloadName=Untitled.png
+image: https://github.com/augustinLib/bsinsa/raw/main/images/demo1.gif
 description: Benchmarking Musinsa with recommand system & review summary system
 ---
 

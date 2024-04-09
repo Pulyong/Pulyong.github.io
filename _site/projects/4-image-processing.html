@@ -23,7 +23,7 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Image Processing using Mean,Median,HighBoost Filter">
   <meta property="og:description" content="Noise remove & Image enhancement using Filter">
-  <meta property="og:image" content="https://file.notion.so/f/f/6de2b483-85e3-4acb-bb38-1796331da9f5/49502f66-b877-4842-9983-774b80923b13/Untitled.png?id=46657a67-115b-4d63-b847-04260182e8a0&table=block&spaceId=6de2b483-85e3-4acb-bb38-1796331da9f5&expirationTimestamp=1712484000000&signature=VDhEB0zuF2BYC--d1QGrBwGQ6mK8mkmr8rF40_OJphE&downloadName=Untitled.png">
+  <meta property="og:image" content="https://private-user-images.githubusercontent.com/76218918/289892989-637333cd-51a8-4dd5-8683-4caa842f5e9e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI2Mjc5NzksIm5iZiI6MTcxMjYyNzY3OSwicGF0aCI6Ii83NjIxODkxOC8yODk4OTI5ODktNjM3MzMzY2QtNTFhOC00ZGQ1LTg2ODMtNGNhYTg0MmY1ZTllLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA5VDAxNTQzOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTMzYjY3OWQzODMwYWExMTZlMDBmMDk4NjYzYmJlNTEyNmMyYzMwYWMzNTZkZTliMDYwNjFjY2NlZWI1MzRlYzEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.GPgO-Yh1c8q4Mraf4dpVpVXFs6Gw5QrCx8XhTzsOquc">
 
   <title>Image Processing using Mean,Median,HighBoost Filter</title>
   <meta name="description" content="Noise remove & Image enhancement using Filter">
@@ -78,26 +78,45 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  <h3 id="original-image">Original Image</h3>
-<p><img src="https://private-user-images.githubusercontent.com/76218918/289892989-637333cd-51a8-4dd5-8683-4caa842f5e9e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI1NjM0NDYsIm5iZiI6MTcxMjU2MzE0NiwicGF0aCI6Ii83NjIxODkxOC8yODk4OTI5ODktNjM3MzMzY2QtNTFhOC00ZGQ1LTg2ODMtNGNhYTg0MmY1ZTllLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA4VDA3NTkwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM0NmUzNzc5ZGNlN2EwZTFlOTFlZWQ1ZWQxM2ZlMTRlNTIyZmNlNzM5N2IwOTA1ODFmMmZlZWMyNjY5Y2Y1NmEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.j5h95YEhTlQnCkQA_UpyDGDDunsPEoHwPsVD5uEo3Oo" alt="Untitled" /></p>
+  <h1 id="filter-implementation">💻Filter Implementation</h1>
+<p>CNN은 Filter 혹은 Kernel의 parameter를 업데이트 하며 Sliding Window를 수행합니다. 같은 개념으로 고정된 Weight를 가진 filter를 이용해서 Nosie를 제거할 수도 있고, Image를 Enhancing할 수도 있으며 경계를 찾아낼 수도 있습니다.<br />
+여러 Filter 중 Mean, Median, Gaussian Filter를 이용하여 Salt &amp; Pepper, Impulse, Gaussian Noise를 제거하는 Filter와 이미지의 high frequency 부분을 강조하는 High-Boost Filter를 구현했습니다.</p>
 
-<h3 id="gaussian-noise-removing-using-mean-filter">Gaussian Noise removing using mean filter</h3>
+<h3 id="original-image">Original Image</h3>
+<p><img src="https://github.com/Pulyong/Early_Vision_Project/assets/76218918/637333cd-51a8-4dd5-8683-4caa842f5e9e" alt="image" /></p>
 
-<p><img src="https://private-user-images.githubusercontent.com/76218918/289893319-061f3251-744c-4153-a4e7-9ab9b20b6b9d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI1NjM0NDYsIm5iZiI6MTcxMjU2MzE0NiwicGF0aCI6Ii83NjIxODkxOC8yODk4OTMzMTktMDYxZjMyNTEtNzQ0Yy00MTUzLWE0ZTctOWFiOWIyMGI2YjlkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA4VDA3NTkwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWYzYzVlZmRjZjEzZWQ4MDQzY2Q0ZGMxZmRmZWM2MzlmYWJiNjY0ZGUwOTBhNWVjMWViYmRiMmM2YzA4NTIzYjImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.gEjV42XSj3gfRff_hC35CsOLJTuktQbcC7xuUJJ00j4" alt="Untitled" /></p>
+<h1 id="mean-filter">✅Mean Filter</h1>
+<p>Mean Filter는 Filter의 weight 합이 1이 되는 filter입니다. 만약 3*3 크기의 filter가 존재한다면 각 weight는 1/9의 값을 갖고 이미지의 3x3 영역으로 Sliding Window를 수행합니다. 결국 Image의 3x3 영역에 각 pixel값에 1/9가 곱해지고 모두 더해지므로 mean을 계산하는 것과 같습니다. mean filter는 Gaussian Noise와 Impulse Noise에는 어느정도 잘 작동하나 Salt &amp; Pepper와 같이 noise가 0과 255로 튀는 경우에는 잘 작동하지 않습니다.</p>
 
-<p><img src="https://private-user-images.githubusercontent.com/76218918/289894441-0afd6d48-6dfb-464a-88b7-38f792a65281.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI1NjM0NDYsIm5iZiI6MTcxMjU2MzE0NiwicGF0aCI6Ii83NjIxODkxOC8yODk4OTQ0NDEtMGFmZDZkNDgtNmRmYi00NjRhLTg4YjctMzhmNzkyYTY1MjgxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA4VDA3NTkwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTFkMTEyZTY4MjhjNmI5NjI1OGQ4MTVmNWUzNjMzZDkyMDE1ZmZlZTJjZmVmZWYxMDJkM2NkMzU2ZDYxOTUzOTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0._hx2ZkB2HiBHxR9mbkHQYh7bjL5KqZCjKjEVFwXvIBc" alt="Untitled" /></p>
+<h3 id="gaussian-noise---mean-filter">Gaussian Noise -&gt; Mean Filter</h3>
+<p><img src="https://github.com/Pulyong/Early_Vision_Project/assets/76218918/061f3251-744c-4153-a4e7-9ab9b20b6b9d" alt="image" /> 
+<img src="https://github.com/Pulyong/Early_Vision_Project/assets/76218918/0afd6d48-6dfb-464a-88b7-38f792a65281" alt="image" /></p>
 
-<h3 id="gaussian-noise-removing-using-gaussian-filter">Gaussian Noise removing using gaussian filter</h3>
+<h1 id="gaussian-filter">✅Gaussian Filter</h1>
+<p>Gaussian Filter는 Filter의 중앙, 예를들어 3x3 filter의 경우 (1,1),으로 부터 정규분포에 의해 값이 부여되는 Filter입니다. 그렇기 때문에 (1,1)이 가장 큰 값을 갖고 주변 영역은 점차 낮은 값을 갖습니다. 분산(Sigma)이 하이퍼파라미터로 존재합니다. Gaussian Noise에 가장 잘 작동하며 다른 Noise에도 어느정도 잘 작동하기 때문에 많이 사용됩니다.</p>
 
-<p><img src="https://private-user-images.githubusercontent.com/76218918/289893319-061f3251-744c-4153-a4e7-9ab9b20b6b9d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI1NjM0NDYsIm5iZiI6MTcxMjU2MzE0NiwicGF0aCI6Ii83NjIxODkxOC8yODk4OTMzMTktMDYxZjMyNTEtNzQ0Yy00MTUzLWE0ZTctOWFiOWIyMGI2YjlkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA4VDA3NTkwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWYzYzVlZmRjZjEzZWQ4MDQzY2Q0ZGMxZmRmZWM2MzlmYWJiNjY0ZGUwOTBhNWVjMWViYmRiMmM2YzA4NTIzYjImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.gEjV42XSj3gfRff_hC35CsOLJTuktQbcC7xuUJJ00j4" alt="Untitled" /></p>
+<h3 id="gaussian-noise---gaussian-filter">Gaussian Noise -&gt; Gaussian Filter</h3>
+<p><img src="https://github.com/Pulyong/Early_Vision_Project/assets/76218918/061f3251-744c-4153-a4e7-9ab9b20b6b9d" alt="image" />
+<img src="https://github.com/Pulyong/Early_Vision_Project/assets/76218918/c76ecf48-090a-4eb5-bd85-596fb83dd16a" alt="image" /></p>
 
-<p><img src="https://private-user-images.githubusercontent.com/76218918/289893471-c76ecf48-090a-4eb5-bd85-596fb83dd16a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI1NjM0NDYsIm5iZiI6MTcxMjU2MzE0NiwicGF0aCI6Ii83NjIxODkxOC8yODk4OTM0NzEtYzc2ZWNmNDgtMDkwYS00ZWI1LWJkODUtNTk2ZmI4M2RkMTZhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA4VDA3NTkwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI2MjE3ZDkzOWNjNzgzM2Q2Mzc5M2Y3NjJlOWQzZWQ5YzY1ZDNjZWVmYTc4Zjk3ZTAwMTczNzBjMjA3OTUxNjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.phUokyZoq7tXxA2QtTBt4UoX5NAaQzXoHF1kxVTtLgc" alt="Untitled" /></p>
+<h1 id="median-filter">✅Median Filter</h1>
+<p>Median Filter는 3x3 영역이 Sliding Window하면서 Image의 9개의 픽셀 값중 5번 째 값 즉, median 값을 취하는 filter입니다. 위의 filter들과 다르게 비선형적인 특징을 갖습니다. 중앙값을 취하기 때문에 Salt &amp; Pepper Noise에서 잘 잘동합니다.</p>
 
-<h3 id="salt--pepper-noise-removing-using-mean-filter">Salt &amp; Pepper Noise removing using mean filter</h3>
+<h3 id="salt--pepper-noise---median-filter">Salt &amp; Pepper Noise -&gt; Median Filter</h3>
+<p><img src="https://github.com/Pulyong/Early_Vision_Project/assets/76218918/e4d814e0-e403-4f22-bc89-9937a6d0bd6f" alt="image" />
+<img src="https://github.com/Pulyong/Early_Vision_Project/assets/76218918/b2a26bdd-05b6-43ce-87a8-d81cb204520b" alt="image" /></p>
 
-<p><img src="https://private-user-images.githubusercontent.com/76218918/289883295-e4d814e0-e403-4f22-bc89-9937a6d0bd6f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI1NjM0NDYsIm5iZiI6MTcxMjU2MzE0NiwicGF0aCI6Ii83NjIxODkxOC8yODk4ODMyOTUtZTRkODE0ZTAtZTQwMy00ZjIyLWJjODktOTkzN2E2ZDBiZDZmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA4VDA3NTkwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE2ODkxYmE0N2E4OGZlYjY2MDBkN2EwZjI4ZTdkMGRlNDdlNjAxNjExOTFlOWViMDFkOGU4MmYwM2UwY2U5Y2MmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.wyaLApHfzByF7qUxAbW_3KO-be0aeOrjpmK2puYNxBg" alt="Untitled" /></p>
+<h1 id="high-boost-filter">✅High-Boost Filter</h1>
+<p>High-Boost Filter는 Sharpening에 사용되는 Filter입니다. Sharpening은 주변 pixel과의 차이를 극대화시켜 경계 부분의 명암 비를 증가 시키는 작업으로 high frequency 영역을 강조하는 역할을 합니다. Original Image에 high frequency를 더해주는 방법과 Original Image에 low frequency를 빼주는 방법이 존재합니다.</p>
 
-<p><img src="https://private-user-images.githubusercontent.com/76218918/289883489-b2a26bdd-05b6-43ce-87a8-d81cb204520b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTI1NjM0NDYsIm5iZiI6MTcxMjU2MzE0NiwicGF0aCI6Ii83NjIxODkxOC8yODk4ODM0ODktYjJhMjZiZGQtMDViNi00M2NlLTg3YTgtZDgxY2IyMDQ1MjBiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDA4VDA3NTkwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJiN2RjNjVkOWYwY2Q5MGJiZWRjNTVmZmEyZWQ4ODIyZmMyY2E5NDZhMzYzN2ZmMzJiZGZiZjQ5ZDk5M2FhOTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.lh3yaqo5VnI3-t8ONykXhdqJ4KyiyXYd2nON6rVHOEM" alt="Untitled" /></p>
+<h3 id="original-image-1">Original Image</h3>
+<p><img src="https://github.com/Pulyong/Early_Vision_Project/assets/76218918/f50ca687-a572-4ff4-b8ea-97897418c98a" alt="image" /></p>
+
+<h3 id="add-high-frequency">Add High frequency</h3>
+<p><img src="https://github.com/Pulyong/Early_Vision_Project/assets/76218918/0651d2b5-082e-480d-91da-e6ee17368f45" alt="image" /></p>
+
+<h3 id="sub-low-frequency">Sub Low frequency</h3>
+<p><img src="https://github.com/Pulyong/Early_Vision_Project/assets/76218918/78652a81-f1f6-40c3-af35-40f897996662" alt="image" /></p>
 
 <p><a href="https://github.com/Pulyong/Early_Vision_Project/tree/main/Filter">Github</a></p>
 
