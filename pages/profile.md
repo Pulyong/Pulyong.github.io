@@ -27,12 +27,12 @@ Recently, I would like to do the following research
   
 ### 📖Education📖
 * **[Konkuk University](https://www.konkuk.ac.kr/){:target="_blank"}**, Seoul , South Korea  
-    B.S in <span style="color:#97C1A9"> **Business Administration** </span> & <span style="color:#97C1A9"> **Computer Science**   </span>
-    * Business Administration \| 2017.03 ~ 2024.08  
+    B.S in <span style="color:#97C1A9"> **Computer Science**   </span> & <span style="color:#97C1A9"> **Business Administration** </span> 
     * Computer Science \| 2021.03 ~ 2024.08  
+    * Business Administration \| 2017.03 ~ 2024.08  
 * GPA  
-    * Business Administration \| *(4.32 \| 4.5)*
-    * Computer Science \| *(4.46 \| 4.5)*
+    * <span style="color:#97C1A9"> **Computer Science** </span> \| *(4.46 \| 4.5)*  
+    * <span style="color:#97C1A9"> **Business Administration** </span> \| *(4.32 \| 4.5)*  
 * Language Skills
     * TEPS \| *(386 \| 600)* \| 2023.08
   
