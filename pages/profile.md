@@ -40,8 +40,8 @@ Recently, I would like to do the following research
   
 ### 🏆Awards & Honors🏆
 * Binary Prediction of Smoker Status using Bio-Signals Top 5%, (87th/1908), Kaggle, Korea \| 2023.11
-* Dean's List, Konkuk University, Korea  \| 2021.08
 * Scholarship given by Kyeong-Geun Jeong for Academic Excellent, Konkuk University, Korea \| 2021.10
+* Dean's List, Konkuk University, Korea  \| 2021.08
 * Scholarship for Academic Excellence, Konkuk University, Korea \| 2019.02
 * Scholarship for Academic Excellence, Konkuk University, Korea \| 2018.08
   
