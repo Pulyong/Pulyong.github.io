@@ -48,6 +48,7 @@ Recently, I would like to do the following research
 <br>
   
 ### ✅Certificates✅
+* Tensorflow Developer Certificate \| TensorFlow
 * Neural Networks and Deep Learning \| DeepLearning.AI
 * Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization \| DeepLearning.AI
 * Structuring Machine Learning Projects \| DeepLearning.AI
