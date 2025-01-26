@@ -10,29 +10,24 @@ weight: 2
 <br>
 
 ### 💻Interest💻
-I'm interested in **Image Generative Model**🤖  
+I'm interested in **Generative Model**🤖  
   
-❤️ <span style="color:#97C1A9"> **Diffusion Model** </span>  
-❤️ <span style="color:#97C1A9"> **Generative Adversarial Networks** </span>  
-❤️ <span style="color:#97C1A9"> **Variational AutoEncoder** </span>  
-  
-Recently, I would like to do the following research
-* Diffusion model using the Space State Model(SSM).
-    * [Diffusion Without Attention](https://arxiv.org/pdf/2311.18257.pdf){:target="_blank"}  
-    * [SSM Meets Video Diffusion Models](https://arxiv.org/pdf/2403.07711.pdf){:target="_blank"}  
-* Multi-Scale VQ-VAE.
-    * [Visual Autoregressive Modeling](https://arxiv.org/pdf/2404.02905.pdf){:target="_blank"}  
-
+❤️ <span style="color:#97C1A9"> **Image,Video Generation w/ AutoRegressive Model** </span>  
+❤️ <span style="color:#97C1A9"> **Score Based Model** </span>  
+❤️ <span style="color:#97C1A9"> **Unified Multimodal Language Model** </span>  
 <br>
   
 ### 📖Education📖
+* **[Korea University](http://xai.korea.ac.kr/){:target="_blank"}**, Seoul , South Korea  
+    Integrated MS/Ph.D. in <span style="color:#97C1A9"> **Artificial Intelligence**   </span>
+    * Artificial Intelligence \| 2025.03 ~ Present  
 * **[Konkuk University](https://www.konkuk.ac.kr/){:target="_blank"}**, Seoul , South Korea  
     B.S in <span style="color:#97C1A9"> **Computer Science**   </span> & <span style="color:#97C1A9"> **Business Administration** </span> 
     * Computer Science \| 2021.03 ~ 2024.08  
     * Business Administration \| 2017.03 ~ 2024.08  
-* GPA  
-    * <span style="color:#97C1A9"> **Computer Science** </span> \| *(4.46 \| 4.5)*  
-    * <span style="color:#97C1A9"> **Business Administration** </span> \| *(4.32 \| 4.5)*  
+    * GPA  
+        * <span style="color:#97C1A9"> **Computer Science** </span> \| *(4.46 \| 4.5)*  
+        * <span style="color:#97C1A9"> **Business Administration** </span> \| *(4.32 \| 4.5)*  
 * Language Skills
     * TEPS \| *(386 \| 600)* \| 2023.08
   

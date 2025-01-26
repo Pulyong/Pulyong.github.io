@@ -1,7 +1,20 @@
+- title: Integrated MS/Ph.D. Candidate, Korea Univ AGI Lab
+  from: 2025.03
+  to: present
+  description: Integrated MS/Ph.D. Candidate at Korea University. <br>
+    Research about Unified Multimodal Language Model. <br>
+
+- title: Research Intern, Korea Univ AGI Lab
+  from: 2024.11
+  to: 2025.02
+  description: Research intern at Korea University. <br>
+    Research about Unified Multimodal Language Model. <br>
+    Unified MLLM is a model that enables both image generation and understanding within a single LLM Architecture.
+
 - title: Research Intern, Korea Univ MLV Lab
   from: 2024.05
-  to: present
-  description: I started research intern at Korea University, Machine Learning & Vision Lab. <br>
+  to: 2024.11
+  description: Research intern at Korea University. <br>
 
 - title: Research Intern, Korea Univ AICVLab
   from: 2024.01
@@ -12,7 +25,7 @@
 
 - title: Tobigs 21th
   from: 2024.01
-  to: Present
+  to: 2025.01
   description: Tobigs is a Big Data analysis & Machine Learning society. <br>
   
 - title: Google Machine Learning BootCamp 4th
