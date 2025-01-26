@@ -5,7 +5,7 @@ permalink: /profile/
 weight: 2
 ---
 
-### 📄[CV](../pdf/Yong_Jin_Kim_CV.pdf){:target="_blank"} & 📈[Transcript](../pdf/Yong_jin_Kim_Transcript.pdf){:target="_blank"}  
+### 📄[CV](../pdf/Yong_Jin_Kim_CV.pdf){:target="_blank"} & 📈[Transcript](../pdf/Yong_Jin_Kim_Transcript.pdf){:target="_blank"}  
   
 <br>
 
