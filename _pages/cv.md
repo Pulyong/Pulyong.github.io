@@ -9,56 +9,24 @@ redirect_from:
 
 {% include base_path %}
 
+You can also download my CV as a <a href="/files/Kim_Yong_Jin_CV.pdf" target="_blank" rel="noopener noreferrer">PDF</a>.
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Integrated M.S./Ph.D. Candidate, <a href="https://agi.korea.ac.kr/home" target="_blank" rel="noopener noreferrer">AGILab</a>, Korea University, 2025.03 - Present
+* B.S. in Computer Science and Engineering, Konkuk University, Seoul, 2021.03 - 2024.08
+* B.S. in Business Administration, Konkuk University, Seoul, 2017.03 - 2024.08
+  * Graduated 2nd out of 101 (Summa Cum Laude)
 
-Work experience
+Research Experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Integrated M.S./Ph.D. Candidate, <a href="https://agi.korea.ac.kr/home" target="_blank" rel="noopener noreferrer">AGILab</a>, Korea University, 2025.03 - Present
+* Research Intern, <a href="https://agi.korea.ac.kr/home" target="_blank" rel="noopener noreferrer">AGILab</a>, Korea University, 2024.11 - 2025.03
+* Research Intern, <a href="https://www.hyunwoojkim.com/" target="_blank" rel="noopener noreferrer">MLVLab</a>, Korea University, 2024.05 - 2024.11
+* Research Intern, <a href="https://kuaicv.com/" target="_blank" rel="noopener noreferrer">AICVLab</a>, Korea University, 2024.01 - 2024.05
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
