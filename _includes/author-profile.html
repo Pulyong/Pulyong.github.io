@@ -28,7 +28,7 @@
         <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
-        <li class="author__desktop"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i><a href="http://xai.korea.ac.kr/" target="_blank" rel="noopener noreferrer">{{ author.employer }}</a></li>
+        <li class="author__desktop"><a href="http://xai.korea.ac.kr/" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</a></li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>Tistory</a></li>
