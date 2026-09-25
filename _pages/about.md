@@ -15,9 +15,9 @@ My research interests include Multimodal LLM (MLLM) and Unified MLLM, and I am p
 
 📰 News
 ======
-**2027.09** &nbsp;<a href="https://arxiv.org/abs/2604.13491" target="_blank" rel="noopener noreferrer">FiRe</a> has been accepted to NeurIPS 2027 (poster).
+**2027.09** &nbsp; 🎉<a href="https://arxiv.org/abs/2604.13491" target="_blank" rel="noopener noreferrer">FiRe</a> has been accepted to NeurIPS 2027 (poster).
 <br>
-**2026.02** &nbsp;<a href="https://arxiv.org/abs/2506.02015" target="_blank" rel="noopener noreferrer">OSPO</a> has been accepted to CVPR 2026 (poster).
+**2026.02** &nbsp;🎉<a href="https://arxiv.org/abs/2506.02015" target="_blank" rel="noopener noreferrer">OSPO</a> has been accepted to CVPR 2026 (poster).
 
 <br><br>
 
